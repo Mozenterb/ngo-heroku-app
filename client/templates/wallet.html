@@ -8,8 +8,9 @@
         <div ng-repeat="offer in walletItems" class="list card">
             <div class="item">
                 <h2>{{offer.name}}</h2>
-                <p>{{offer.enddate| date:'EEEE, MMMM d y}}</p>
+                <p>{{offer.enddate}}</p>
               <!--  <p>Show your QR code to sign in.</p> -->
+              <!-- | date:'EEEE, MMMM d y-->
             </div>
             <div class="item item-body">
                 <img class="full-image" ng-src="img/qrcode.svg">
@@ -23,6 +24,6 @@
         </div>
     </ion-content>
 
-    <p ng-if="!loading && walletItems.length === 0" class="centered-message">Your wallet list is empty</p>
+    <p ng-if="!loading && walletItems.length === 0" class="centered-message">You haven't saved any events to this list</p>
 
 </ion-view>
