@@ -101,12 +101,12 @@ a {
 }
 
 .icon-programs {
-    background: url('img/programs.png');
+    background: url('img/programs2.png');
     background-size: 100% auto;;
     background-repeat: no-repeat;
     width: 32px;
     height: 32px;
-    display: inline-block;
+    display: inline-flex;
     float: left;
     margin-top: 12px;
 }
