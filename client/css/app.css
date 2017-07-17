@@ -155,7 +155,7 @@ a {
 }
 
 .menu-left .bottom-list .item {
-    color: #ccc;
+    color: #e5e5e5;
 }
 
 .notification {
@@ -458,7 +458,7 @@ a {
 }
 
 .card .item {
-    padding: 12px;
+    padding: 6px 12px 12px 12px;
 }
 
 .card .item-body p,
@@ -502,7 +502,7 @@ a {
 
 .menu,
 .menu .item-content {
-    background-color: #69625A;
+    background-color: #92a1b1;
 }
 
 .menu .item-content {
