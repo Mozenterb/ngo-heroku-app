@@ -112,6 +112,30 @@ a {
     margin-bottom: 6px;
 }
 
+.icon-services {
+    background: url('img/services.png');
+    background-size: 100% auto;;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    float: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.icon-saved-items {
+    background: url('img/saved-items.png');
+    background-size: 100% auto;;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    float: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
 .icon-facebook {
     background: url('img/icon-facebook.svg');
     background-size: contain;
