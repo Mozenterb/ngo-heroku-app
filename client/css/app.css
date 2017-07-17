@@ -106,9 +106,10 @@ a {
     background-repeat: no-repeat;
     width: 32px;
     height: 32px;
-    display: inline-flex;
+    display: inline-block;
     float: left;
     margin-top: 0px;
+    margin-bottom: 12px;
 }
 
 .icon-facebook {
