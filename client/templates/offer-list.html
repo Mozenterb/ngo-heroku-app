@@ -1,4 +1,4 @@
-<ion-view title="Special Offers" hide-back-button="true" class="card-bg">
+<ion-view title="Services and Opportunities" hide-back-button="true" class="card-bg">
 
     <ion-nav-buttons side="left">
         <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
@@ -28,7 +28,10 @@
                 <div class="item">
                     <h2>{{offer.name}}</h2>
 
+                    <!-- Addtl. notes not relevant for NGO
                     <p>Expires on {{offer.enddate | date:'EEEE, MMMM d y'}}</p>
+                    -->
+
                 </div>
                 <div class="item item-body">
                     <img ng-if="offer.image" ng-src="{{offer.image}}">
