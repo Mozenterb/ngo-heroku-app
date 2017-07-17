@@ -125,7 +125,43 @@ a {
 }
 
 .icon-saved-items {
-    background: url('img/saved-items.png');
+    background: url('img/saved_items.png');
+    background-size: 100% auto;;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    float: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.icon-vouchers {
+    background: url('img/vouchers.png');
+    background-size: 100% auto;;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    float: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.icon-contact {
+    background: url('img/contact_us.png');
+    background-size: 100% auto;;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    float: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.icon-location {
+    background: url('img/location.png');
     background-size: 100% auto;;
     background-repeat: no-repeat;
     width: 32px;
