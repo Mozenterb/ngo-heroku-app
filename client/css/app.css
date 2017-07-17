@@ -331,8 +331,8 @@ a {
 }
 
 .bar-status1 {
-    border-color: #48607a;
-    background-color: #48607a;
+    border-color: #fbaf98;
+    background-color: #fbaf98;
     background-image: none;
     color: #fff;
 }
@@ -484,21 +484,21 @@ a {
 }
 
 .icon-status1 {
-    background: url('img/icon-status1.svg');
+    background: url('img/STEPS-icon-logo-02.png');
     background-size: contain;
     background-repeat: no-repeat;
     margin:0 0 0 12px;
 }
 
 .icon-status2 {
-    background: url('img/icon-status2.svg');
+    background: url('img/STEPS-icon-logo-03.png');
     background-size: contain;
     background-repeat: no-repeat;
     margin:0 0 0 12px;
 }
 
 .icon-status3 {
-    background: url('img/icon-status3.svg');
+    background: url('img/STEPS-icon-logo-04.png');
     background-size: contain;
     background-repeat: no-repeat;
     margin:0 0 0 12px;

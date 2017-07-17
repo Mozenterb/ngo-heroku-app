@@ -8,7 +8,8 @@
         <div ng-repeat="offer in walletItems" class="list card">
             <div class="item">
                 <h2>{{offer.name}}</h2>
-                <p>Expires on: {{offer.enddate}}</p>
+                <p>This event will begin on {{offer.enddate| date:'EEEE, MMMM d y}}</p>
+                <p>Show your QR code to sign in.</p>
             </div>
             <div class="item item-body">
                 <img class="full-image" ng-src="img/qrcode.svg">
