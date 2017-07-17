@@ -338,15 +338,15 @@ a {
 }
 
 .bar-status2 {
-    border-color: #A87E21;
-    background-color: #A87E21;
+    border-color: #92a1b1;
+    background-color: #92a1b1;
     background-image: none;
     color: #fff;
 }
 
 .bar-status3 {
-    border-color: #802E13;
-    background-color: #802E13;
+    border-color: #48607a;
+    background-color: #48607a;
     background-image: none;
     color: #fff;
 }
@@ -354,8 +354,8 @@ a {
 
 .button-status,
 {
-    border-color: #73732E;
-    background-color: #73732E;
+    border-color: #92a1b1;
+    background-color: #92a1b1;
     background-image: none;
     color: #fff;
 }
@@ -363,15 +363,15 @@ a {
 .button-status1,
 .button-status1:hover,
 .button-status1:active {
-    background-color: #73732E;
+    background-color: #92a1b1;
     color: #fff;
 }
 
 .button-status2,
 .button-status2:hover,
 .button-status2:active {
-    border-color: #A87E21;
-    background-color: #A87E21;
+    border-color: #fbaf98;
+    background-color: #fbaf98;
     background-image: none;
     color: #fff;
 }
@@ -379,8 +379,8 @@ a {
 .button-status3,
 .button-status3:hover,
 .button-status3:active {
-    border-color: #802E13;
-    background-color: #802E13;
+    border-color: #48607a;
+    background-color: #48607a;
     background-image: none;
     color: #fff;
 }
@@ -421,25 +421,25 @@ a {
 }
 
 .status-bar>div {
-    border-top: solid 2px #666666;
+    border-top: solid 2px #48607a;
     -webkit-flex-grow:1;
     flex-grow: 1;
     margin: 4px;
 }
 
 .status-bar>div:nth-of-type(1) {
-    border-top: solid 2px #73732E;
+    border-top: solid 2px #48607a;
     color: #73732E !important;
 }
 
 .status-bar>div:nth-of-type(2) {
-    border-top: solid 2px #A87E21;
-    color: #A87E21 !important;
+    border-top: solid 2px #fbaf98;
+    color: #fbaf98 !important;
     text-align: center;
 }
 
 .status-bar>div:nth-of-type(3) {
-    border-top: solid 2px #802E13;
+    border-top: solid 2px #48607a;
     color: #802E13 !important;
     text-align: right;
 }
@@ -460,27 +460,27 @@ a {
 }
 
 .status1-bg {
-    background: #73732E;
+    background: #92a1b1;
 }
 
 .status2-bg {
-    background: #A87E21;
+    background: #fbaf98;
 }
 
 .status3-bg {
-    background: #802E13;
+    background: #48607a;
 }
 
 .status1 {
-    color: #73732E;
+    color: #48607a;
 }
 
 .status2 {
-    color: #A87E21;
+    color: #fbaf98;
 }
 
 .status3 {
-    color: #802E13;
+    color: #48607a;
 }
 
 .icon-status1 {
@@ -505,7 +505,7 @@ a {
 }
 
 .badge {
-    background-color: #805959;
+    background-color: #92a1b1;
 }
 
 .activity-pic {
@@ -586,7 +586,7 @@ a {
 .sos-button {
     color:white;
     alpha:0.8;
-    background-color:#790507;
+    background-color:#48607a;
     border-radius:10px;
     left:50%;
     margin-left:-75px;
