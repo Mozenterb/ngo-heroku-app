@@ -20,22 +20,14 @@
 
                 <div class="profile-status">
                     <div>
-                        <div class="profile-level">{{statusLabel}} Member</div>
+                        <div class="profile-level">Member</div>
                     </div>
-                    <div class="icon-status icon-status{{user.status}}"></div>
                 </div>
 
-                <div class="status-bar">
-                    <div class="forastero">
-                        <p>Observers</p>
-                    </div>
-                    <div class="trinitario">
-                        <p>Participants</p>
-                    </div>
-                    <div class="Criollo">
-                        <p>Mentors</p>
-                    </div>
-                </div>
+                <button class="button button-block button-light" ng-click="logout()">
+                    Logout
+                </button>
+
 
             </div>
         </div>

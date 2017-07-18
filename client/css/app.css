@@ -331,15 +331,15 @@ a {
 }
 
 .bar-status1 {
-    border-color: #fbaf98;
-    background-color: #fbaf98;
+    border-color: #48607a;
+    background-color: #48607a;
     background-image: none;
     color: #fff;
 }
 
 .bar-status2 {
-    border-color: #92a1b1;
-    background-color: #92a1b1;
+    border-color: #48607a;
+    background-color: #48607a;
     background-image: none;
     color: #fff;
 }
@@ -370,8 +370,8 @@ a {
 .button-status2,
 .button-status2:hover,
 .button-status2:active {
-    border-color: #fbaf98;
-    background-color: #fbaf98;
+    border-color: #92a1b1;
+    background-color: #92a1b1;
     background-image: none;
     color: #fff;
 }
@@ -379,8 +379,8 @@ a {
 .button-status3,
 .button-status3:hover,
 .button-status3:active {
-    border-color: #48607a;
-    background-color: #48607a;
+    border-color: #92a1b1;
+    background-color: #92a1b1;
     background-image: none;
     color: #fff;
 }
