@@ -10,7 +10,6 @@
             <a ui-sref="app.product-detail({productId: product.id})">
                 <div class="item">
                     <h2>{{product.name}}</h2>
-                    <p>Available today!</p>
                 </div>
                 <div class="item item-body">
                     <img ng-if="product.image"  ng-src="{{product.image}}">
@@ -21,7 +20,10 @@
             </a>
             <div class="item tabs tabs-secondary tabs-icon-left">
                 <a class="tab-item" ng-click="deleteItem(product)">
+                    <p>Remove from list</p>
+
                     <i class="icon ion-trash-a"></i>
+
                 </a>
             </div>
         </div>
