@@ -34,8 +34,8 @@ angular.module('nibs.store-locator', [])
 
             icon = L.icon({
                 iconUrl: 'img/mapicon.png',
-                iconSize:     [24, 24], // size of the icon
-                iconAnchor:   [12, 0], // point of the icon which will correspond to marker's location
+                iconSize:     [36, 36], // size of the icon
+                iconAnchor:   [18, 0], // point of the icon which will correspond to marker's location
                 popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
             });
 
